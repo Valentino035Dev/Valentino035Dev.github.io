@@ -21,7 +21,7 @@ h3 {
 h1 {
     font-size: 38px;
     margin-bottom: 10px;
-
+    text-align: center;
 }
 
 h2 {
@@ -56,10 +56,12 @@ a {
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .subtitulo {
     max-width: 700px;
+    text-align: center;
 }
 
 .menu-lista {
@@ -67,12 +69,14 @@ a {
     padding: 0;
 
     list-style: none;
+    text-align: center;
 }
 
 .menu-lista li {
     display: inline-block;
     margin-right: 8px;
     margin-bottom: 8px;
+    
 
 }
 
@@ -80,7 +84,7 @@ a {
     display: inline-block;
 
     padding: 8px 12px;
-
+   
     background-color: black;
     color: whitesmoke;
 
@@ -88,6 +92,7 @@ a {
     border-radius: 5px;
 
     text-decoration: none;
+    
 }
 
 .secao {
@@ -118,6 +123,8 @@ a {
 
 .lista-tecnologias{
     
+    display: inline-block;
+    gap: 12px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -129,4 +136,18 @@ a {
     display: inline-block;
     border: 1px solid #fff;
     border-radius: 999px;
+}
+
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    background-color: darkgray;
+
+    text-align: center;
+}
+
+
+.rodape address{
+    font-style: italic;
+
 }
