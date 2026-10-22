@@ -46,8 +46,11 @@ a {
 .cabecalho {
     background-color: black;
     color: whitesmoke;
-
-    padding: 30px 0;
+    margin-bottom: 3px;
+    padding: 10px 0;
+    
+    border-bottom-left-radius:  30px;
+    border-bottom-right-radius: 30px;
 }
 
 .tag {
