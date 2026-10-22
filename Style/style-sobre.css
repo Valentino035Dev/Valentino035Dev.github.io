@@ -2,6 +2,7 @@
    width: 100%  ;
    border: 5px solid ;
    border-collapse: collapse    ;
+   background-color: antiquewhite;
 
 }
 
@@ -14,8 +15,9 @@
 
 
 .tabela-conhecimentos caption{
-    padding: 12px;
+    margin-bottom: 10px;
     font-weight: bold;
+    text-align: left;
 
 }
 
@@ -27,4 +29,15 @@
 
 .tabela-conhecimentos tfoot{
     background-color: azure;
+    color: black;
+}
+
+.secao {
+    padding: 24px ;
+    margin: 25px 0;
+
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 8px black;
 }

@@ -22,10 +22,12 @@ h1 {
     font-size: 38px;
     margin-bottom: 10px;
     text-align: center;
+    font-style: italic;
 }
 
 h2 {
     font-size: 26px;
+    font-style: italic;
 }
 
 h3 {
@@ -99,7 +101,8 @@ a {
 }
 
 .secao {
-    padding: 72px 0;
+    padding: 72px ;
+   ;
 }
 
 
